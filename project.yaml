@@ -1,0 +1,76 @@
+# .project metadata for The Update Framework (TUF)
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add maturity_log entry with TOC issue URL
+# TODO: Set project_lead GitHub handle
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
+
+schema_version: "1.0.0"
+slug: "the-update-framework"
+name: "The Update Framework (TUF)"
+description: "Python reference implementation of The Update Framework (TUF)"
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#go-tuf"
+    primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2017-10-24T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/theupdateframework/python-tuf"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://theupdateframework.github.io/"
+
+artwork: "https://landscape.cncf.io/logos/the-update-framework-tuf.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/theupdateframework/python-tuf/blob/develop/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "theupdateframework/python-tuf"
+
+
+security:
+  policy:
+    path: "https://github.com/theupdateframework/python-tuf/blob/develop/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/theupdateframework/python-tuf/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/theupdateframework/python-tuf/blob/develop/docs/CONTRIBUTING.rst"
+  code_of_conduct:
+    path: "https://github.com/theupdateframework/python-tuf/blob/develop/docs/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/theupdateframework/python-tuf/blob/develop/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/theupdateframework/python-tuf/blob/develop/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
+# CLOMonitor Score: 75/100
+# Documentation: 95 | License: 57 | Best Practices: 79 | Security: 82
