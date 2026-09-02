@@ -1,8 +1,6 @@
 # Maintainer roster for The Update Framework (TUF)
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add maintainer GitHub handles
-
 #  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
 maintainers:
   - project_id: "the-update-framework"
@@ -10,8 +8,12 @@ maintainers:
     teams:
       - name: "maintainers"
         members:
-          # TODO: Add maintainer handles
-          - github-handle
+          - JustinCappos
+          - trishankatdatadog
+          - jkjell
+          - joshuagl
+          - mnm678
+          - lukpueh
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource
       # provisioning (mailing lists, service desk, Copilot seats, etc).
